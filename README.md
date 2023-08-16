@@ -1,28 +1,10 @@
 # Node exporter
 
-[![CircleCI](https://circleci.com/gh/prometheus/node_exporter/tree/master.svg?style=shield)][circleci]
-[![Buildkite status](https://badge.buildkite.com/94a0c1fb00b1f46883219c256efe9ce01d63b6505f3a942f9b.svg)](https://buildkite.com/prometheus/node-exporter)
-[![Docker Repository on Quay](https://quay.io/repository/prometheus/node-exporter/status)][quay]
-[![Docker Pulls](https://img.shields.io/docker/pulls/prom/node-exporter.svg?maxAge=604800)][hub]
-[![Go Report Card](https://goreportcard.com/badge/github.com/prometheus/node_exporter)][goreportcard]
-
-Prometheus exporter for hardware and OS metrics exposed by \*NIX kernels, written
-in Go with pluggable metric collectors.
-
-The [Windows exporter](https://github.com/prometheus-community/windows_exporter) is recommended for Windows users.
-To expose NVIDIA GPU metrics, [prometheus-dcgm
-](https://github.com/NVIDIA/dcgm-exporter)
-can be used.
-
 ## Installation and Usage
 
 If you are new to Prometheus and `node_exporter` there is a [simple step-by-step guide](https://prometheus.io/docs/guides/node-exporter/).
 
 The `node_exporter` listens on HTTP port 9100 by default. See the `--help` output for more options.
-
-### Ansible
-
-For automated installs with [Ansible](https://www.ansible.com/), there is the [Prometheus Community role](https://github.com/prometheus-community/ansible).
 
 ### Docker
 
